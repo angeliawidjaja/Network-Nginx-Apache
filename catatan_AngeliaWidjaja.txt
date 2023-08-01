@@ -1,0 +1,21 @@
+Pada proyek akhir ini saya melakukan konfigurasi untuk:
+NGINX dan Apache2
+
+Referensi Install Apache2:
+https://www.geeksforgeeks.org/how-to-install-apache-server-in-ubuntu/
+
+Referensi Ubah Konfigurasi Apache2:
+https://blogsecond.com/2021/06/ubah-port-apache-linux/
+
+Referensi Reverse Proxy di Apache2:
+https://www.digitalocean.com/community/tutorials/how-to-use-apache-http-server-as-reverse-proxy-using-mod_proxy-extension-ubuntu-20-04#step-3-modifying-the-default-configuration-to-enable-reverse-proxy
+
+Referensi Ubah Port di Apache2:
+https://blogsecond.com/2021/06/ubah-port-apache-linux/
+
+Di lainnya, terdapat ketentuan:
+"Anda tidak wajib menerapakan rate limit jika menggunakan Apache2. Selain itu, tetap kerjakan sesuai kriteria."
+Jadi, saya tidak menerapkan rate limit di Apache2.
+Yang saya lakukan adalah:
+* Ganti port dari 80 ke 3000
+* Setup Reverse Proxy
